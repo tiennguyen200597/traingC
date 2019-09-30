@@ -6,7 +6,7 @@ int main (){
 	char *ptr;
 	ptr=(char*)malloc(100*sizeof(char));
 	int i, j, n, k = 0;
-	printf ("\nNhap chuoi:");
+	printf ("\nEnter a string:");
 	scanf ("%s",ptr);
 	n = strlen( ptr );
 	for (i = 0,j = ( n - 1 ); i <(n/2); i++ , j--){
